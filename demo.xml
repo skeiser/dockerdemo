@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context reloadable="true" privileged="true" docBase="/warfiles/demo.war" path="/demo">
+
+<Resource name="jdbc/MyDB" 
+      global="jdbc/MyDB" 
+      auth="Container" 
+      type="javax.sql.DataSource" 
+      driverClassName="com.mysql.cj.jdbc.Driver" 
+      url="jdbc:mysql://10.0.75.1:3306/dockerdemo" 
+      username="steve" 
+      password="XXXX" 
+      
+      maxActive="100" 
+      maxIdle="20" 
+      minIdle="5" 
+      maxWait="10000"/>
+
+</Context>
