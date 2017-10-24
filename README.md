@@ -1,5 +1,7 @@
 Docker notes:
 
+
+DB dockerdemo DockerDemo@1
 -- centos install
  -it is interactive and assign a tty
 docker run -it centos /bin/bash
